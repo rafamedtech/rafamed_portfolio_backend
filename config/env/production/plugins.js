@@ -8,7 +8,6 @@ module.exports = ({ env }) => ({
 
       params: {
         Bucket: env("AWS_BUCKET"),
-        StorageClass: env("AWS_STORAGE_CLASSES"),
       },
     },
   },
